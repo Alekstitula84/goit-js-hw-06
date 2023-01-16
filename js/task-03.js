@@ -19,8 +19,8 @@ for (let el of images) {
   document.querySelector('.gallery').insertAdjacentHTML('beforeEnd', ` <li><img src="${el.url}" alt="${el.alt}"></li>`)
 
 };
-const galleryStyle = document.querySelector(".gallery")
 
+const galleryStyle = document.querySelector(".gallery")
 galleryStyle.style.display = "flex";
 galleryStyle.style.flexDirection = "column";
 galleryStyle.style.gap = "20px";
