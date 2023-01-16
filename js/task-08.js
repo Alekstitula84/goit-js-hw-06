@@ -14,6 +14,6 @@ function handleSubmit(event) {
         return alert("Please fill in all the fields! Будь ласка заповність всі поля!");
     }
 
-    console.log(`Email: ${email.value}, Password: ${password.value}`);
-    event.currentTarget.reset();
+    console.log({ email: ${ email.value }, password: ${ password.value } });
+event.currentTarget.reset();
 }

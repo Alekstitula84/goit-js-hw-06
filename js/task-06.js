@@ -7,5 +7,8 @@ inputData.addEventListener("blur", (ev) => {
     if (ev.currentTarget.value.length === inputDataLength) {
         inputData.classList.remove("invalid");
         inputData.classList.add("valid");
-    } else { inputData.classList.add("invalid") };
+    } else {
+        inputData.classList.add('invalid')
+        inputData.classList.remove('valid')
+    };
 });
