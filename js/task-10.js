@@ -10,7 +10,7 @@ const createBtnEl = document.querySelector('button[data-create]');
 const destroyBtnEl = document.querySelector('button[data-destroy]');
 const divBoxesEl = document.getElementById('boxes');
 divBoxesEl.style.display = 'flex';
-divBoxesEl.style.flexflex = 'wrap';
+divBoxesEl.style.flexWrap = "wrap";
 divBoxesEl.style.alignItems = 'center';
 divBoxesEl.style.gap = '30px';
 
