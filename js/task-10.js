@@ -1,4 +1,4 @@
-document.querySelector('body').style.backgroundColor = '#abbbc4';
+document.querySelector('body').style.backgroundColor = '#9E8383';
 
 function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
